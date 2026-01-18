@@ -4,8 +4,8 @@ from pydantic import BaseModel
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from back.models import init_db
-import back.requests as rq
+from models import init_db
+import requests as rq
 
 
 @asynccontextmanager
